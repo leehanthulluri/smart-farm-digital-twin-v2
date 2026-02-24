@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+backend/venv/
+.env
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/.vite/
+.vite/
+dist/
+
+# ML
+ml-models/runs/
+ml-models/*.pt
+ml-models/*.pth
+ml-models/*.h5
+
+# Blockchain
+blockchain-network/node_modules/
+
+# Docker
+*.log
+
+# IDE
+.vscode/
+.idea/
